@@ -1,0 +1,18 @@
+/* ELEMENT Selektor*/
+div{
+    background-color: rgb(255, 253, 127);
+}
+
+/* id selektor*/
+#header{
+    font-size:2rem;
+}
+
+/* Klassenselector*/
+.subtitle{
+    color: rgb(234, 166, 41);
+}
+
+#text p{
+    background-color: rgb(187, 174, 87);;
+}
