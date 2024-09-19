@@ -1,0 +1,23 @@
+.one{
+    background-color: red;
+    position: sticky;
+}
+
+.two{
+    background-color: orange;
+    position: fixed;
+}
+
+.three{
+    background-color: yellow;
+    position: relative;
+}
+
+.four{
+    background-color: green;
+    position: absolute;
+}
+.transparent{
+    height: 100vh;
+    background-color: blue;
+}
