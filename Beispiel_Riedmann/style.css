@@ -1,6 +1,8 @@
 .one{
     background-color: red;
     position: sticky;
+    top: 0px;
+    
 }
 
 .two{
