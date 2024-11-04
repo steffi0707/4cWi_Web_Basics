@@ -1,0 +1,54 @@
+
+.wrapper{
+    padding: 2.5rem;
+   
+}
+
+
+.blueContainer{
+    background-color: cyan;
+    width: 20rem;
+    height: 20rem;
+}
+
+.green{
+    background-color: green;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.black{
+    background-color: black;            
+    width: 5rem;
+    height: 5rem;
+
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+}
+
+.whiteContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+
+    border-style: solid;
+    border-color: black;
+    
+    margin-top: 4rem;
+    border-width: 2px;
+    padding: 1.25rem;
+    
+
+}
+
+.boxes{
+    background-color: rgb(0, 255, 106);
+    width: 8rem;
+    height: 4rem;   
+}
