@@ -1,4 +1,4 @@
-import { createInterface } from "readline";
+import { createInterface } from "readLine";
 
 const readline = createInterface({
   input: process.stdin,
