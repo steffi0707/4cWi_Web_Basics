@@ -5,13 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script4.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="heading">Super Page</h1>
-    <div id="content">
-        A<input type="text" id="number1" value="17"/>
-        B<input type="text" id="number2"/>
-        <button onclick"buttonClicked()">Berechnen</button>
+    <div class="div1">
+        <div class="calculator">
+            <h1>Crazy Calculator</h1>
+            <div id="printResult"></div>
+            <div class="input">
+                <div class="input1">
+                    Number 1 <input type="number" id="num1">
+                </div>
+                <div class="input2">
+                    Number 2 <input type="number" id="num2">
+                </div>
+            </div>
+            <div class="calculates">
+                <button onclick="addition()">Addition</button>
+                <button onclick="substract()">Subtract</button>
+                <button onclick="multiply()">Multiply</button>
+                <button onclick="divide()">Divide</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
