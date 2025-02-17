@@ -11,7 +11,7 @@ function substract(){
     let num2 = document.getElementById("num2").value;
     let result = parseFloat(num1) - parseFloat(num2);
 
-    printResult.innerHTML = "Result = " + result  ;
+    printResult.innerHTML = result;
 }
 
 function multiply(){
@@ -19,7 +19,7 @@ function multiply(){
     let num2 = document.getElementById("num2").value;
     let result = parseFloat(num1) * parseFloat(num2);
 
-    printResult.innerHTML = "Result = " + result  ;
+    printResult.innerHTML = result;
 }
 
 function divide(){
@@ -27,5 +27,5 @@ function divide(){
     let num2 = document.getElementById("num2").value;
     let result = parseFloat(num1) / parseFloat(num2);
 
-    printResult.innerHTML = "Result = " + result  ;
+    printResult.innerHTML = result;
 }
